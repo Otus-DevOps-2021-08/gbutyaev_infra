@@ -22,6 +22,7 @@ Host bastion
 
 
 
+
 Host someinternalhost
 
                 HostName 10.128.0.14
