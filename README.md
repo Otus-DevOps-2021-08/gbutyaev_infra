@@ -15,17 +15,16 @@ someinternalhost_IP = 10.128.0.14
 
 ```bash
 Host bastion
-                HostName 62.84.117.31
-                Port 22
+		HostName 62.84.117.31
                 User appuser
                 IdentityFile ~/.ssh/appuser
-
+                ForwardAgent yes
 
 
 
 Host someinternalhost
-
-                HostName 10.128.0.14
-                Port 22
+		HostName 10.128.0.14
                 User appuser
                 IdentityFile ~/.ssh/appuser
+                ForwardAgent yes
+                ProxyJump bastion
