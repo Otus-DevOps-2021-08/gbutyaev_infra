@@ -28,3 +28,12 @@ Host someinternalhost
                 IdentityFile ~/.ssh/appuser
                 ForwardAgent yes
                 ProxyJump bastion
+
+
+Данные инстанса
+
+testapp_IP = 62.84.119.70
+testapp_port = 9292
+
+
+Домашнее задание разработано для курса https://otus.ru/lessons/devops-praktiki-i-instrumenty/
