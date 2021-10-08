@@ -30,9 +30,12 @@ Host someinternalhost
                 ProxyJump bastion
 
 
+```
 Данные инстанса
 
+```
 testapp_IP = 62.84.119.70
+
 testapp_port = 9292
 
 ```
