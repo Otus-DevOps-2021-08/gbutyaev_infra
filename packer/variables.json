@@ -1,7 +1,7 @@
 {
-	"folder_id": "b1gk972uam08fn7uv33e",
-	"service_account_key_file": "/home/gleb/key_packer_hw/key.json",
-	"source_image_family": "ubuntu-1604-lts",
-	"ssh_username": "ubuntu"
+    "folder_id": "b1gk972uam08fn7uv33e",
+    "service_account_key_file": "/home/gleb/key_packer_hw/key.json",
+    "source_image_family": "ubuntu-1604-lts",
+    "ssh_username": "ubuntu"
 }
 
