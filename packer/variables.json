@@ -2,6 +2,6 @@
     "folder_id": "b1gk972uam08fn7uv33e",
     "service_account_key_file": "/home/gleb/homework_5/gbutyaev_infra/packer/key.json.example",
     "source_image_family": "ubuntu-1604-lts",
-    "ssh_username": "appuser"
+    "ssh_username": "ubuntu"
 }
 

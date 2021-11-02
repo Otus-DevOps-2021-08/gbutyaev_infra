@@ -1,0 +1,6 @@
+{
+    "folder_id": "folder_id",
+    "service_account_key_file": "key.json.example",
+    "source_image_family": "ubu",
+    "ssh_username": "user"
+}
