@@ -40,4 +40,14 @@ testapp_port = 9292
 
 ```
 
+### ДЗ Packer
+* Установил Packer, сделал под него сервисный аккаунт на YC
+* Создал файл шаблон Packer ubuntu16.json, сконфигуриров билдер и добавив в него провиженеры
+* Cоздал файл .gitignore, в который указал .key.json и variables.json
+* Cоздал variables.json.example и key.json.example, указав в них вымышленные значения
+* На основании созданного шаблона Packer развернул ВМ на YC
+* Проверить можно : `http://178.154.218.248:9292/`
+
+
+
 Домашнее задание разработано для курса [DevOps практики и инструменты](https://otus.ru/lessons/devops-praktiki-i-instrumenty/)
