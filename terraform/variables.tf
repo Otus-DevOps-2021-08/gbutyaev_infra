@@ -22,7 +22,7 @@ variable subnet_id {
 variable service_account_key_file {
   description = "token"
 }
-variable private_key {
+variable private_key_path {
   description = "private key path"
 }
 

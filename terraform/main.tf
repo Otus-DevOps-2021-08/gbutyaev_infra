@@ -36,7 +36,7 @@ resource "yandex_compute_instance" "app" {
     user  = "ubuntu"
     agent = false
     # путь до приватного ключа
-    private_key = file(var.private_key)
+    private_key = file(var.private_key_path)
   }
 
   provisioner "file" {
