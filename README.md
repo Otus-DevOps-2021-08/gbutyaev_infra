@@ -50,4 +50,14 @@ testapp_port = 9292
 
 
 
+
+### ДЗ Terraform-1
+* Поставил terraform 0.12.8
+* Создал директории `terraform`, в которой сделал `terraform init`
+* В директории terraform создал файл main.tf, в котором прописал конфигурацию создания ВМ на основе образа (созданного в Packer)
+* В конфиге использовал уже сконфигурированный до этого токен
+* Создал файл outputs.tf, в котором добавил выходную переменную с ip ВМ
+* Создал файлы variables.tf и terraform.tfvars, в которых определил переменные
+* Создал `terraform.tfvars.example` с вымышленными значениями, а `terraform.tfvars` добавил в `.gitignore`
+
 Домашнее задание разработано для курса [DevOps практики и инструменты](https://otus.ru/lessons/devops-praktiki-i-instrumenty/)
