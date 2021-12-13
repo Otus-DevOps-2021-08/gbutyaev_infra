@@ -33,4 +33,11 @@ variable db_disk_image {
   description = "fd8abr8h94qdotfh6deb"
   default     = "fd8abr8h94qdotfh6deb"
 }
-
+variable app_disk_image {
+  description = "Disk image for reddit app"
+  default     = "reddit-app-base"
+}
+variable db_disk_image {
+  description = "Disk image for reddit db"
+  default     = "reddit-db-base"
+}
