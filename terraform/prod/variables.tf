@@ -27,10 +27,10 @@ variable private_key_path {
 }
 variable app_disk_image {
   description = "fd8jqofg0bq5jtp9rcig"
-  default = "fd8jqofg0bq5jtp9rcig"
+  default     = "fd8jqofg0bq5jtp9rcig"
 }
 variable db_disk_image {
   description = "fd8abr8h94qdotfh6deb"
-  default = "fd8abr8h94qdotfh6deb"
+  default     = "fd8abr8h94qdotfh6deb"
 }
 

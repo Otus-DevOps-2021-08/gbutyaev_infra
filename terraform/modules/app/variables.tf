@@ -3,8 +3,8 @@ variable public_key_path {
 }
 variable app_disk_image {
   description = "fd8jqofg0bq5jtp9rcig"
-  default = "fd8jqofg0bq5jtp9rcig"
+  default     = "fd8jqofg0bq5jtp9rcig"
 }
 variable subnet_id {
-description = "e9bslbc453l2r4dllidk"
+  description = "e9bslbc453l2r4dllidk"
 }
