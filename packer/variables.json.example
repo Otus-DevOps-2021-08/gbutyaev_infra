@@ -1,5 +1,5 @@
 {
     "folder_id": "b1gk972uam08fn7uv33e-example",
-    "service_account_key_file": "/mnt/c/Users/Gleb/study/otus/homework_terraform_1/gbutyaev_infra/packer/key.json",
+    "service_account_key_file": "./key.json",
     "source_image_family": "ubuntu-example"
 }
