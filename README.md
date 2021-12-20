@@ -60,4 +60,10 @@ testapp_port = 9292
 * Создал файлы variables.tf и terraform.tfvars, в которых определил переменные
 * Создал `terraform.tfvars.example` с вымышленными значениями, а `terraform.tfvars` добавил в `.gitignore`
 
+### ДЗ Terraform-2
+* Добавил модули app и db
+* Добавлены образы reddit-app-base и reddit-db-base
+
 Домашнее задание разработано для курса [DevOps практики и инструменты](https://otus.ru/lessons/devops-praktiki-i-instrumenty/)
+
+
